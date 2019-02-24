@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/elk-owlapi.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/guava-18.0.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/guice-4.0.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/guice-assistedinject-4.0.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/guice-multibindings-4.0.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/httpclient-4.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/httpclient-cache-4.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/httpcore-4.4.3.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/jackson-annotations-2.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/jackson-core-2.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/jackson-databind-2.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/jcl-over-slf4j-1.7.7.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/jsonld-java-0.5.0.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/jsonld-java-sesame-0.5.0.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/jsr305-2.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/org.apache.servicemix.bundles.aopalliance-1.0_6.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/org.apache.servicemix.bundles.javax-inject-1_2.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/owlapi-osgidistribution-4.1.4.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/semargl-core-0.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/semargl-rdf-0.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/semargl-rdfa-0.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/semargl-sesame-0.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/sesame-model-2.7.16.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/sesame-rio-api-2.7.16.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/sesame-rio-binary-2.7.16.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/sesame-rio-datatypes-2.7.16.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/sesame-rio-languages-2.7.16.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/sesame-rio-n3-2.7.16.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/sesame-rio-nquads-2.7.16.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/sesame-rio-ntriples-2.7.16.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/sesame-rio-rdfjson-2.7.16.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/sesame-rio-rdfxml-2.7.16.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/sesame-rio-trig-2.7.16.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/sesame-rio-trix-2.7.16.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/sesame-rio-turtle-2.7.16.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/sesame-util-2.7.16.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/slf4j-api-1.7.10.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/slf4j-nop-1.7.10.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/trove4j-3.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/School Work/Spring 2019 Semester/CSC 526/resources/xz-1.5.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
