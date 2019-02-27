@@ -1,7 +1,26 @@
 import csv,re,math
 
-def sim_j(gene1, gene2):
-    return [len(set(x + y))/len(x + y) for x in gene1 for y in gene2]
+def all_pairs_sim_j(gene1, gene2, ids_1, ids_2):
+    pairs = [(x[0],y[0]) for x in ids_1 for y in ids_2]
+    values = [len(set(x + y))/len(x + y) for x in gene1 for y in gene2]
+    return list(zip(pairs, values))
+
+def best_pairs_sim_j(all_pairs, original):
+    all_pairs = [max([x for x in all_pairs if x[0][0] == y[0]]) for y in original]
+    return all_pairs
+
+def best_pairs_sim_resnik(gene1, gene2):
+    lcs = []
+    for x in gene1:
+        for y in gene2:
+            for x_item in x:
+                if x_item in y:
+                    lcs.append(x_item)
+                    break
+    values = [0 - math.log10((len([item for x in gene1 if item in x])
+                              + len([item for y in gene2 if item in y])) / 2)
+              for item in lcs]
+    return list(zip(lcs, values))
 
 with open('ontology_ids_superclasses.tsv') as superclasses, open('semantic_similarity_ids.txt', 'r') as ids:
     supr_clses_reader = [(i[0], i[1].split(',')) for i in csv.reader(superclasses, delimiter='\t')]
@@ -13,7 +32,10 @@ with open('ontology_ids_superclasses.tsv') as superclasses, open('semantic_simil
         gene_names.append(ids.pop(0))
         ss_ids.append([[x] for x in ids])
 
-    ss_ids = [[x + supr_clses[subclass.index(x[0])] for x in gene] for gene in ss_ids]
-
-    print("Jaccard All Pairs similarity between GeneA and GeneC:", sim_j(ss_ids[0], ss_ids[2]))
-    print("Jaccard Best Pairs similarity between GeneA and GeneC:", sim_j(ss_ids[0], ss_ids[2]))
+    inferred = [[x + supr_clses[subclass.index(x[0])] for x in gene] for gene in ss_ids]
+    num_1 = all_pairs_sim_j(inferred[0], inferred[2], ss_ids[0], ss_ids[2])
+    print("Jaccard All Pairs similarity between GeneA and GeneC:", num_1)
+    num_2 = best_pairs_sim_j(num_1, ss_ids[0])
+    print("Jaccard Best Pairs similarity between GeneA and GeneC:", num_2)
+    num_3 = best_pairs_sim_resnik(inferred[0], inferred[1])
+    print("Resnik Best Pairs similarity between GeneA and GeneB:", num_3)
