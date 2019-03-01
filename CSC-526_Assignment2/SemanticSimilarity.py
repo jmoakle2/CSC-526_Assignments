@@ -7,7 +7,7 @@ import csv, re, math
 # This method calculates all pairs between the given genes using Jaccard similarity.
 def all_pairs_sim_j(gene1, gene2, ids_1, ids_2):
     pairs = [(x[0], y[0]) for x in ids_1 for y in ids_2]
-    values = [len(set(x + y))/len(x + y) for x in gene1 for y in gene2]
+    values = [len([x_item for x_item in x if x_item in y]) / len(set(x + y)) for x in gene1 for y in gene2]
     return list(zip(pairs, values))
 
 # This method calculates the best pairs between the given genes using Jaccard similarity.
@@ -46,22 +46,22 @@ with open('ontology_ids_superclasses.tsv') as superclasses, open('semantic_simil
         gene_names.append(ids.pop(0))
         explicit.append([[x] for x in ids])
 
-    # The inferred set of GO identifiers.
+# The inferred set of GO identifiers.
     inferred = [[x + supr_clses[subclass.index(x[0])] for x in gene] for gene in explicit]
 
-    # 1. All Pairs using Jaccard Similarity
+# 1. All Pairs using Jaccard Similarity
     num_1 = all_pairs_sim_j(inferred[0], inferred[2], explicit[0], explicit[2])
 
     print("All Pairs (Using Jaccard Similarity) between GeneA and GeneC:", num_1)
     print("All Pairs Average of GeneA and GeneC:", sum([x[1] for x in num_1]) / len(num_1))
 
-    # 2. Best Pairs using Jaccard Similarity
+# 2. Best Pairs using Jaccard Similarity
     num_2 = best_pairs_sim_j(num_1, explicit[0])
 
     print("Best Pairs (Using Jaccard Similarity) between GeneA and GeneC:", num_2)
     print("Best Pairs Average of GeneA and GeneC:", sum([x[1] for x in num_2]) / len(num_2))
 
-    # 3. Best Pairs using Resnik Similarity
+# 3. Best Pairs using Resnik Similarity
     num_3 = best_pairs_sim_resnik(inferred[0], inferred[1])
 
     print("Best Pairs (Using Resnik Similarity) between GeneA and GeneB:", num_3)
