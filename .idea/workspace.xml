@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19f317ff-71ef-4dce-80cf-6cec054ccb7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CSC-526_Assignment3/StringMatching.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC-526_Assignment3/ThreeStringMatching.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSC-526_Assignment3/StringMatching.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSC-526_Assignment3/StringMatching.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +15,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CSC-526_Assignment3/StringMatching.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="82" column="34" selection-start-line="82" selection-start-column="34" selection-end-line="82" selection-end-column="34" />
+            <state relative-caret-position="259">
+              <caret line="93" column="2" selection-start-line="93" selection-start-column="2" selection-end-line="93" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSC-526_Assignment2/SemanticSimilarity.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-761">
+              <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -62,6 +69,11 @@
             <path>
               <item name="CSC-526_Assignments" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSC-526_Assignments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSC-526_Assignments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSC-526_Assignments" type="462c0819:PsiDirectoryNode" />
+              <item name="CSC-526_Assignment2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CSC-526_Assignments" type="b2602c69:ProjectViewProjectNode" />
@@ -165,13 +177,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -188,13 +201,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/SemanticSimilarity.py" />
-    <entry file="file://$PROJECT_DIR$/CSC-526_Assignment2/SemanticSimilarity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="73" column="92" selection-start-line="73" selection-start-column="92" selection-end-line="73" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSC-526_Assignment2/ontology_ids_superclasses.tsv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -205,10 +211,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CSC-526_Assignment2/SemanticSimilarity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-761">
+          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CSC-526_Assignment3/StringMatching.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="82" column="34" selection-start-line="82" selection-start-column="34" selection-end-line="82" selection-end-column="34" />
+        <state relative-caret-position="259">
+          <caret line="93" column="2" selection-start-line="93" selection-start-column="2" selection-end-line="93" selection-end-column="2" />
         </state>
       </provider>
     </entry>
