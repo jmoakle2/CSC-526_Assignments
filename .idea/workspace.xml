@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19f317ff-71ef-4dce-80cf-6cec054ccb7d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CSC-526_Assignment3/StringMatching.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSC-526_Assignment3/StringMatching.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSC-526_Assignment4/MachineLearning.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,19 +14,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CSC-526_Assignment3/StringMatching.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="93" column="2" selection-start-line="93" selection-start-column="2" selection-end-line="93" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSC-526_Assignment2/SemanticSimilarity.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-761">
-              <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        <entry file="file://$PROJECT_DIR$/CSC-526_Assignment4/MachineLearning.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
             </state>
           </provider>
         </entry>
@@ -36,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -49,6 +42,8 @@
         <option value="$PROJECT_DIR$/CSC-526_Assignment2/SemanticSimilarity.py" />
         <option value="$PROJECT_DIR$/CSC-526_Assignment3/ThreeStringMatching.py" />
         <option value="$PROJECT_DIR$/CSC-526_Assignment3/StringMatching.py" />
+        <option value="$PROJECT_DIR$/CSC-526_Assignment4/MachineLearning.py" />
+        <option value="$PROJECT_DIR$/CSC-526_Assignment4/MachineLearning.ipynb" />
       </list>
     </option>
   </component>
@@ -63,6 +58,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -70,25 +66,10 @@
               <item name="CSC-526_Assignments" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSC-526_Assignments" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CSC-526_Assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSC-526_Assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="CSC-526_Assignment2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSC-526_Assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSC-526_Assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="CSC-526_Assignment3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSC-526_Assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -158,8 +139,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.StringMatching" />
       <item itemvalue="Python.SemanticSimilarity" />
+      <item itemvalue="Python.StringMatching" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -184,7 +165,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32960895" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -220,8 +201,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSC-526_Assignment3/StringMatching.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="93" column="2" selection-start-line="93" selection-start-column="2" selection-end-line="93" selection-end-column="2" />
+        <state relative-caret-position="204">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSC-526_Assignment4/MachineLearning.py" />
+    <entry file="file://$PROJECT_DIR$/CSC-526_Assignment4/MachineLearning.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
