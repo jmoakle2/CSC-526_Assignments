@@ -1,3 +1,7 @@
+# Justin Oakley
+# CSC-526 Assignment 4: Machine Learning
+# 04/01/19
+
 import pandas as pd, sklearn, numpy as np
 
 def print_list(param_list):
