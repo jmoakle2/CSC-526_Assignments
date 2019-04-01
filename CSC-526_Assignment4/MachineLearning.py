@@ -2,7 +2,7 @@
 # CSC-526 Assignment 4: Machine Learning
 # 04/01/19
 
-import pandas as pd, sklearn, numpy as np
+import pandas as pd, numpy as np
 
 def print_list(param_list):
     for item in param_list:
