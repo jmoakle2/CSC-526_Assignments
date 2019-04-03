@@ -6,11 +6,13 @@ import pandas as pd, numpy as np
 from scipy import stats
 
 S = pd.read_csv("SemanticSimilarityScores.tsv", sep='\t')
-S_cols = S.drop(columns='Character Number').columns
+sample = S.sample(n=50, replace=True)
+simj_a = sample['SimJ Score MACHINE']
+simj_b = sample['SimJ Score HUMAN']
+nic_a = sample['NIC Score MACHINE']
+nic_b = sample['NIC Score HUMAN']
+t_simj, p_simj = stats.ttest_ind(simj_a, simj_b)
+t_nic, p_nic = stats.ttest_ind(simj_a, simj_b)
 
-for col in S_cols:
-    S['norm_' + col] = (S[col] - S[col].min()) / (S[col].max() - S[col].min())
-
-S = S.drop(columns=S_cols)
-ttest = stats.ttest_rel(S['norm_SimJ Score MACHINE'], S['norm_SimJ Score HUMAN'])
-print(ttest)
+print("t-Score of Jaccard Similarity Scores: %s\np-Value of Jaccard Similiarity Scores %s" % (t_simj, p_simj))
+print("t-Score of Resnik Similarity Scores: %s\np-Value of Resnik Similiarity Scores %s" % (t_nic, p_nic))
