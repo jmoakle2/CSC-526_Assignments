@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19f317ff-71ef-4dce-80cf-6cec054ccb7d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CSC-526_Assignment5/CSC 526 Assignment 5 - Hypothesis Testing.docx" beforeDir="false" afterPath="$PROJECT_DIR$/CSC-526_Assignment5/CSC 526 Assignment 5 - Hypothesis Testing.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSC-526_Assignment5/HypothesisTesting.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSC-526_Assignment5/HypothesisTesting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSC-526_Extra_Credit/SequenceAlignment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,25 +14,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CSC-526_Assignment5/HypothesisTesting.py">
+        <entry file="file://$PROJECT_DIR$/CSC-526_Extra_Credit/SequenceAlignment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-              <folding>
-                <element signature="e#71#103#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSC-526_Assignment5/SemanticSimilarityScores.tsv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state>
-              <caret column="35" selection-start-column="17" selection-end-column="35" />
+            <state relative-caret-position="119">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -60,6 +45,7 @@
         <option value="$PROJECT_DIR$/CSC-526_Assignment4/MachineLearning.ipynb" />
         <option value="$PROJECT_DIR$/CSC-526_Assignment4/MachineLearning.py" />
         <option value="$PROJECT_DIR$/CSC-526_Assignment5/HypothesisTesting.py" />
+        <option value="$PROJECT_DIR$/CSC-526_Extra_Credit/SequenceAlignment.py" />
       </list>
     </option>
   </component>
@@ -67,7 +53,7 @@
     <option name="x" value="240" />
     <option name="y" value="130" />
     <option name="width" value="1440" />
-    <option name="height" value="784" />
+    <option name="height" value="785" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -84,17 +70,7 @@
             <path>
               <item name="CSC-526_Assignments" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSC-526_Assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="CSC-526_Assignment3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSC-526_Assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSC-526_Assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="CSC-526_Assignment4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSC-526_Assignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSC-526_Assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="CSC-526_Assignment5" type="462c0819:PsiDirectoryNode" />
+              <item name="CSC-526_Extra_Credit" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -105,7 +81,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/CSC-526_Assignment3/StringMatching.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CSC-526_Extra_Credit/SequenceAlignment.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -127,7 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.HypothesisTesting">
+  <component name="RunManager" selected="Python.SequenceAlignment">
     <configuration name="HypothesisTesting" type="PythonConfigurationType" factoryName="Python">
       <module name="CSC-526_Assignments" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,6 +167,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="SequenceAlignment" type="PythonConfigurationType" factoryName="Python">
+      <module name="CSC-526_Assignments" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Python\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CSC-526_Extra_Credit" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CSC-526_Extra_Credit/SequenceAlignment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="StringMatching" type="PythonConfigurationType" factoryName="Python">
       <module name="CSC-526_Assignments" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -217,6 +214,7 @@
       <item itemvalue="Python.StringMatching" />
       <item itemvalue="Python.MachineLearning" />
       <item itemvalue="Python.HypothesisTesting" />
+      <item itemvalue="Python.SequenceAlignment" />
     </list>
   </component>
   <component name="SearchEverywhereConfiguration">
@@ -326,8 +324,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSC-526_Assignment5/HypothesisTesting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        <state relative-caret-position="289">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding>
             <element signature="e#71#103#0" expanded="true" />
           </folding>
@@ -338,14 +336,24 @@
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state>
           <caret column="35" selection-start-column="17" selection-end-column="35" />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSC-526_Extra_Credit">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSC-526_Extra_Credit/SequenceAlignment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
